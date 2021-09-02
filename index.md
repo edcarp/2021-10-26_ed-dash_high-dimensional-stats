@@ -3,16 +3,16 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "The University of Edinburgh"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "University of Edinburgh"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "55.962450227686006"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-3.231888561955223"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Oct 11-14, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "09:15 am - 12:45 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2021-10-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2021-10-14        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+humandate: 18-21 October 2021    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "09:15 - 12:45"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2021-10-18      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2021-10-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Ailith Ewing", "Alan O'Callaghan"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Bradley Harris"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["g.peru@epcc.ed.ac.uk","ailith.ewing@ed.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -32,13 +32,19 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-## Course outline
+<h2 id="general"> Overview </h2>
+
+**High-Dimensional Statistics with R**
 
 This course is intended for those who have a working knowledge of statistics
 and linear models with R and wish to learn high-dimensional statistical methods
 with R.
 
 This is a short course aimed at familiarising learners with statistical and computational methods for the extremely high-dimensional data commonly found in biomedical and health sciences (e.g., gene expression, DNA methylation, health records). These datasets can be challenging to approach, as they often contain many more features than observations, and it can be difficult to distinguish meaningful patterns from natural underlying variability. To this end, we will introduce and explain a range of methods and approaches to disentangle these patterns from natural variability. After completion of this course, learners will be able to understand, apply, and critically analyse a broad range of statistical methods. In particular, we focus on providing a strong grounding in high-dimensional regression, dimensionality reduction, and clustering.
+
+**Ed-DaSH**
+
+Ed-DaSH is a **Da**ta **S**cience training programme for **H**ealth and Biosciences. The [team](https://edcarp.github.io/Ed-DaSH/ed_dash_team.html) has developed workshops using [The Carpentries](https://carpentries.org/) platform on the following topics. See [workshops](https://edcarp.github.io/Ed-DaSH/workshops.html) for dates and registration details. All workshops will be delivered remotely.
 
 {% comment %}
 EVENTBRITE
@@ -313,7 +319,11 @@ of code below the Schedule `<h2>` header below with
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% elsif site.carpentry == "pilot" %}
+
+The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. 
+
 {% include custom-schedule.html %}
+
 {% comment %}
 The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. If you would like to know the timing of these breaks in advance, please [contact the workshop organisers](#contact). For a list of lesson sections and estimated timings, [visit the lesson homepage]({{ site.lesson_site }}).
 Edit/replace the text above if you want to include a schedule table.
