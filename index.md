@@ -9,10 +9,10 @@ country: "gb"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "55.962450227686006"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-3.231888561955223"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: 18-21 October 2021    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: 26-29 October 2021    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "09:15 - 12:45"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2021-10-18      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2021-10-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2021-10-26      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2021-10-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Ailith Ewing", "Alan O'Callaghan"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Bradley Harris"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["g.peru@epcc.ed.ac.uk","ailith.ewing@ed.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
